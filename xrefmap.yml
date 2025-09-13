@@ -1,0 +1,370 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Global
+  name: ''
+  href: api/Global.html
+- uid: Global.BlobHashMapBuilder`2
+  name: BlobHashMapBuilder<TKey, TValue>
+  href: api/Global.BlobHashMapBuilder-2.html
+  commentId: T:Global.BlobHashMapBuilder`2
+  name.vb: BlobHashMapBuilder(Of TKey, TValue)
+  fullName: BlobHashMapBuilder<TKey, TValue>
+  fullName.vb: BlobHashMapBuilder(Of TKey, TValue)
+  nameWithType: BlobHashMapBuilder<TKey, TValue>
+  nameWithType.vb: BlobHashMapBuilder(Of TKey, TValue)
+- uid: Global.BlobHashMapBuilder`2.#ctor(BlobBuilder,System.Int32,System.Single)
+  name: BlobHashMapBuilder(BlobBuilder, int, float)
+  href: api/Global.BlobHashMapBuilder-2.html#Global_BlobHashMapBuilder_2__ctor_BlobBuilder_System_Int32_System_Single_
+  commentId: M:Global.BlobHashMapBuilder`2.#ctor(BlobBuilder,System.Int32,System.Single)
+  name.vb: New(BlobBuilder, Integer, Single)
+  fullName: BlobHashMapBuilder<TKey, TValue>.BlobHashMapBuilder(BlobBuilder, int, float)
+  fullName.vb: BlobHashMapBuilder(Of TKey, TValue).New(BlobBuilder, Integer, Single)
+  nameWithType: BlobHashMapBuilder<TKey, TValue>.BlobHashMapBuilder(BlobBuilder, int, float)
+  nameWithType.vb: BlobHashMapBuilder(Of TKey, TValue).New(BlobBuilder, Integer, Single)
+- uid: Global.BlobHashMapBuilder`2.#ctor*
+  name: BlobHashMapBuilder
+  href: api/Global.BlobHashMapBuilder-2.html#Global_BlobHashMapBuilder_2__ctor_
+  commentId: Overload:Global.BlobHashMapBuilder`2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BlobHashMapBuilder<TKey, TValue>.BlobHashMapBuilder
+  fullName.vb: BlobHashMapBuilder(Of TKey, TValue).New
+  nameWithType: BlobHashMapBuilder<TKey, TValue>.BlobHashMapBuilder
+  nameWithType.vb: BlobHashMapBuilder(Of TKey, TValue).New
+- uid: Global.BlobHashMapBuilder`2.Add(`0,`1)
+  name: Add(TKey, TValue)
+  href: api/Global.BlobHashMapBuilder-2.html#Global_BlobHashMapBuilder_2_Add__0__1_
+  commentId: M:Global.BlobHashMapBuilder`2.Add(`0,`1)
+  fullName: BlobHashMapBuilder<TKey, TValue>.Add(TKey, TValue)
+  fullName.vb: BlobHashMapBuilder(Of TKey, TValue).Add(TKey, TValue)
+  nameWithType: BlobHashMapBuilder<TKey, TValue>.Add(TKey, TValue)
+  nameWithType.vb: BlobHashMapBuilder(Of TKey, TValue).Add(TKey, TValue)
+- uid: Global.BlobHashMapBuilder`2.Add*
+  name: Add
+  href: api/Global.BlobHashMapBuilder-2.html#Global_BlobHashMapBuilder_2_Add_
+  commentId: Overload:Global.BlobHashMapBuilder`2.Add
+  isSpec: "True"
+  fullName: BlobHashMapBuilder<TKey, TValue>.Add
+  fullName.vb: BlobHashMapBuilder(Of TKey, TValue).Add
+  nameWithType: BlobHashMapBuilder<TKey, TValue>.Add
+  nameWithType.vb: BlobHashMapBuilder(Of TKey, TValue).Add
+- uid: Global.BlobHashMapBuilder`2.AddAll(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})
+  name: AddAll(IEnumerable<KeyValuePair<TKey, TValue>>)
+  href: api/Global.BlobHashMapBuilder-2.html#Global_BlobHashMapBuilder_2_AddAll_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair__0__1___
+  commentId: M:Global.BlobHashMapBuilder`2.AddAll(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})
+  name.vb: AddAll(IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+  fullName: BlobHashMapBuilder<TKey, TValue>.AddAll(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
+  fullName.vb: BlobHashMapBuilder(Of TKey, TValue).AddAll(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
+  nameWithType: BlobHashMapBuilder<TKey, TValue>.AddAll(IEnumerable<KeyValuePair<TKey, TValue>>)
+  nameWithType.vb: BlobHashMapBuilder(Of TKey, TValue).AddAll(IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+- uid: Global.BlobHashMapBuilder`2.AddAll(System.Collections.Generic.IEnumerator{KeyValue{`0,`1}})
+  name: AddAll(IEnumerator<KeyValue<TKey, TValue>>)
+  href: api/Global.BlobHashMapBuilder-2.html#Global_BlobHashMapBuilder_2_AddAll_System_Collections_Generic_IEnumerator_KeyValue__0__1___
+  commentId: M:Global.BlobHashMapBuilder`2.AddAll(System.Collections.Generic.IEnumerator{KeyValue{`0,`1}})
+  name.vb: AddAll(IEnumerator(Of KeyValue(Of TKey, TValue)))
+  fullName: BlobHashMapBuilder<TKey, TValue>.AddAll(System.Collections.Generic.IEnumerator<KeyValue<TKey, TValue>>)
+  fullName.vb: BlobHashMapBuilder(Of TKey, TValue).AddAll(System.Collections.Generic.IEnumerator(Of KeyValue(Of TKey, TValue)))
+  nameWithType: BlobHashMapBuilder<TKey, TValue>.AddAll(IEnumerator<KeyValue<TKey, TValue>>)
+  nameWithType.vb: BlobHashMapBuilder(Of TKey, TValue).AddAll(IEnumerator(Of KeyValue(Of TKey, TValue)))
+- uid: Global.BlobHashMapBuilder`2.AddAll*
+  name: AddAll
+  href: api/Global.BlobHashMapBuilder-2.html#Global_BlobHashMapBuilder_2_AddAll_
+  commentId: Overload:Global.BlobHashMapBuilder`2.AddAll
+  isSpec: "True"
+  fullName: BlobHashMapBuilder<TKey, TValue>.AddAll
+  fullName.vb: BlobHashMapBuilder(Of TKey, TValue).AddAll
+  nameWithType: BlobHashMapBuilder<TKey, TValue>.AddAll
+  nameWithType.vb: BlobHashMapBuilder(Of TKey, TValue).AddAll
+- uid: Global.BlobHashMapBuilder`2.CreateBlobAssetReference(Allocator)
+  name: CreateBlobAssetReference(Allocator)
+  href: api/Global.BlobHashMapBuilder-2.html#Global_BlobHashMapBuilder_2_CreateBlobAssetReference_Allocator_
+  commentId: M:Global.BlobHashMapBuilder`2.CreateBlobAssetReference(Allocator)
+  fullName: BlobHashMapBuilder<TKey, TValue>.CreateBlobAssetReference(Allocator)
+  fullName.vb: BlobHashMapBuilder(Of TKey, TValue).CreateBlobAssetReference(Allocator)
+  nameWithType: BlobHashMapBuilder<TKey, TValue>.CreateBlobAssetReference(Allocator)
+  nameWithType.vb: BlobHashMapBuilder(Of TKey, TValue).CreateBlobAssetReference(Allocator)
+- uid: Global.BlobHashMapBuilder`2.CreateBlobAssetReference*
+  name: CreateBlobAssetReference
+  href: api/Global.BlobHashMapBuilder-2.html#Global_BlobHashMapBuilder_2_CreateBlobAssetReference_
+  commentId: Overload:Global.BlobHashMapBuilder`2.CreateBlobAssetReference
+  isSpec: "True"
+  fullName: BlobHashMapBuilder<TKey, TValue>.CreateBlobAssetReference
+  fullName.vb: BlobHashMapBuilder(Of TKey, TValue).CreateBlobAssetReference
+  nameWithType: BlobHashMapBuilder<TKey, TValue>.CreateBlobAssetReference
+  nameWithType.vb: BlobHashMapBuilder(Of TKey, TValue).CreateBlobAssetReference
+- uid: Global.BlobMultiHashMap`2
+  name: BlobMultiHashMap<TKey, TValue>
+  href: api/Global.BlobMultiHashMap-2.html
+  commentId: T:Global.BlobMultiHashMap`2
+  name.vb: BlobMultiHashMap(Of TKey, TValue)
+  fullName: BlobMultiHashMap<TKey, TValue>
+  fullName.vb: BlobMultiHashMap(Of TKey, TValue)
+  nameWithType: BlobMultiHashMap<TKey, TValue>
+  nameWithType.vb: BlobMultiHashMap(Of TKey, TValue)
+- uid: Global.BlobMultiHashMap`2.ContainsKey(`0)
+  name: ContainsKey(TKey)
+  href: api/Global.BlobMultiHashMap-2.html#Global_BlobMultiHashMap_2_ContainsKey__0_
+  commentId: M:Global.BlobMultiHashMap`2.ContainsKey(`0)
+  fullName: BlobMultiHashMap<TKey, TValue>.ContainsKey(TKey)
+  fullName.vb: BlobMultiHashMap(Of TKey, TValue).ContainsKey(TKey)
+  nameWithType: BlobMultiHashMap<TKey, TValue>.ContainsKey(TKey)
+  nameWithType.vb: BlobMultiHashMap(Of TKey, TValue).ContainsKey(TKey)
+- uid: Global.BlobMultiHashMap`2.ContainsKey*
+  name: ContainsKey
+  href: api/Global.BlobMultiHashMap-2.html#Global_BlobMultiHashMap_2_ContainsKey_
+  commentId: Overload:Global.BlobMultiHashMap`2.ContainsKey
+  isSpec: "True"
+  fullName: BlobMultiHashMap<TKey, TValue>.ContainsKey
+  fullName.vb: BlobMultiHashMap(Of TKey, TValue).ContainsKey
+  nameWithType: BlobMultiHashMap<TKey, TValue>.ContainsKey
+  nameWithType.vb: BlobMultiHashMap(Of TKey, TValue).ContainsKey
+- uid: Global.BlobMultiHashMap`2.GetValuesForKey(`0)
+  name: GetValuesForKey(TKey)
+  href: api/Global.BlobMultiHashMap-2.html#Global_BlobMultiHashMap_2_GetValuesForKey__0_
+  commentId: M:Global.BlobMultiHashMap`2.GetValuesForKey(`0)
+  fullName: BlobMultiHashMap<TKey, TValue>.GetValuesForKey(TKey)
+  fullName.vb: BlobMultiHashMap(Of TKey, TValue).GetValuesForKey(TKey)
+  nameWithType: BlobMultiHashMap<TKey, TValue>.GetValuesForKey(TKey)
+  nameWithType.vb: BlobMultiHashMap(Of TKey, TValue).GetValuesForKey(TKey)
+- uid: Global.BlobMultiHashMap`2.GetValuesForKey*
+  name: GetValuesForKey
+  href: api/Global.BlobMultiHashMap-2.html#Global_BlobMultiHashMap_2_GetValuesForKey_
+  commentId: Overload:Global.BlobMultiHashMap`2.GetValuesForKey
+  isSpec: "True"
+  fullName: BlobMultiHashMap<TKey, TValue>.GetValuesForKey
+  fullName.vb: BlobMultiHashMap(Of TKey, TValue).GetValuesForKey
+  nameWithType: BlobMultiHashMap<TKey, TValue>.GetValuesForKey
+  nameWithType.vb: BlobMultiHashMap(Of TKey, TValue).GetValuesForKey
+- uid: Global.BlobMultiHashMap`2.ValueCount
+  name: ValueCount
+  href: api/Global.BlobMultiHashMap-2.html#Global_BlobMultiHashMap_2_ValueCount
+  commentId: F:Global.BlobMultiHashMap`2.ValueCount
+  fullName: BlobMultiHashMap<TKey, TValue>.ValueCount
+  fullName.vb: BlobMultiHashMap(Of TKey, TValue).ValueCount
+  nameWithType: BlobMultiHashMap<TKey, TValue>.ValueCount
+  nameWithType.vb: BlobMultiHashMap(Of TKey, TValue).ValueCount
+- uid: Global.BlobTests
+  name: BlobTests
+  href: api/Global.BlobTests.html
+  commentId: T:Global.BlobTests
+  fullName: BlobTests
+  nameWithType: BlobTests
+- uid: Global.BlobTests.BlobJob
+  name: BlobTests.BlobJob
+  href: api/Global.BlobTests.BlobJob.html
+  commentId: T:Global.BlobTests.BlobJob
+  fullName: BlobTests.BlobJob
+  nameWithType: BlobTests.BlobJob
+- uid: Global.BlobTests.BlobJob.Execute(System.Int32)
+  name: Execute(int)
+  href: api/Global.BlobTests.BlobJob.html#Global_BlobTests_BlobJob_Execute_System_Int32_
+  commentId: M:Global.BlobTests.BlobJob.Execute(System.Int32)
+  name.vb: Execute(Integer)
+  fullName: BlobTests.BlobJob.Execute(int)
+  fullName.vb: BlobTests.BlobJob.Execute(Integer)
+  nameWithType: BlobTests.BlobJob.Execute(int)
+  nameWithType.vb: BlobTests.BlobJob.Execute(Integer)
+- uid: Global.BlobTests.BlobJob.Execute*
+  name: Execute
+  href: api/Global.BlobTests.BlobJob.html#Global_BlobTests_BlobJob_Execute_
+  commentId: Overload:Global.BlobTests.BlobJob.Execute
+  isSpec: "True"
+  fullName: BlobTests.BlobJob.Execute
+  nameWithType: BlobTests.BlobJob.Execute
+- uid: Global.BlobTests.BlobJob.Keys
+  name: Keys
+  href: api/Global.BlobTests.BlobJob.html#Global_BlobTests_BlobJob_Keys
+  commentId: F:Global.BlobTests.BlobJob.Keys
+  fullName: BlobTests.BlobJob.Keys
+  nameWithType: BlobTests.BlobJob.Keys
+- uid: Global.BlobTests.BlobJob.mapref
+  name: mapref
+  href: api/Global.BlobTests.BlobJob.html#Global_BlobTests_BlobJob_mapref
+  commentId: F:Global.BlobTests.BlobJob.mapref
+  fullName: BlobTests.BlobJob.mapref
+  nameWithType: BlobTests.BlobJob.mapref
+- uid: Global.BlobTests.BlobJob.results
+  name: results
+  href: api/Global.BlobTests.BlobJob.html#Global_BlobTests_BlobJob_results
+  commentId: F:Global.BlobTests.BlobJob.results
+  fullName: BlobTests.BlobJob.results
+  nameWithType: BlobTests.BlobJob.results
+- uid: Global.BlobTests.BlobMultiHashMapExistingKeyTest
+  name: BlobMultiHashMapExistingKeyTest()
+  href: api/Global.BlobTests.html#Global_BlobTests_BlobMultiHashMapExistingKeyTest
+  commentId: M:Global.BlobTests.BlobMultiHashMapExistingKeyTest
+  fullName: BlobTests.BlobMultiHashMapExistingKeyTest()
+  nameWithType: BlobTests.BlobMultiHashMapExistingKeyTest()
+- uid: Global.BlobTests.BlobMultiHashMapExistingKeyTest*
+  name: BlobMultiHashMapExistingKeyTest
+  href: api/Global.BlobTests.html#Global_BlobTests_BlobMultiHashMapExistingKeyTest_
+  commentId: Overload:Global.BlobTests.BlobMultiHashMapExistingKeyTest
+  isSpec: "True"
+  fullName: BlobTests.BlobMultiHashMapExistingKeyTest
+  nameWithType: BlobTests.BlobMultiHashMapExistingKeyTest
+- uid: Global.BlobTests.BlobMultiHashMapNonExistingKeyTest(System.Int32)
+  name: BlobMultiHashMapNonExistingKeyTest(int)
+  href: api/Global.BlobTests.html#Global_BlobTests_BlobMultiHashMapNonExistingKeyTest_System_Int32_
+  commentId: M:Global.BlobTests.BlobMultiHashMapNonExistingKeyTest(System.Int32)
+  name.vb: BlobMultiHashMapNonExistingKeyTest(Integer)
+  fullName: BlobTests.BlobMultiHashMapNonExistingKeyTest(int)
+  fullName.vb: BlobTests.BlobMultiHashMapNonExistingKeyTest(Integer)
+  nameWithType: BlobTests.BlobMultiHashMapNonExistingKeyTest(int)
+  nameWithType.vb: BlobTests.BlobMultiHashMapNonExistingKeyTest(Integer)
+- uid: Global.BlobTests.BlobMultiHashMapNonExistingKeyTest*
+  name: BlobMultiHashMapNonExistingKeyTest
+  href: api/Global.BlobTests.html#Global_BlobTests_BlobMultiHashMapNonExistingKeyTest_
+  commentId: Overload:Global.BlobTests.BlobMultiHashMapNonExistingKeyTest
+  isSpec: "True"
+  fullName: BlobTests.BlobMultiHashMapNonExistingKeyTest
+  nameWithType: BlobTests.BlobMultiHashMapNonExistingKeyTest
+- uid: Global.BlobTests.BlobMultiHashMapTest(System.Int32)
+  name: BlobMultiHashMapTest(int)
+  href: api/Global.BlobTests.html#Global_BlobTests_BlobMultiHashMapTest_System_Int32_
+  commentId: M:Global.BlobTests.BlobMultiHashMapTest(System.Int32)
+  name.vb: BlobMultiHashMapTest(Integer)
+  fullName: BlobTests.BlobMultiHashMapTest(int)
+  fullName.vb: BlobTests.BlobMultiHashMapTest(Integer)
+  nameWithType: BlobTests.BlobMultiHashMapTest(int)
+  nameWithType.vb: BlobTests.BlobMultiHashMapTest(Integer)
+- uid: Global.BlobTests.BlobMultiHashMapTest*
+  name: BlobMultiHashMapTest
+  href: api/Global.BlobTests.html#Global_BlobTests_BlobMultiHashMapTest_
+  commentId: Overload:Global.BlobTests.BlobMultiHashMapTest
+  isSpec: "True"
+  fullName: BlobTests.BlobMultiHashMapTest
+  nameWithType: BlobTests.BlobMultiHashMapTest
+- uid: Global.BlobTests.BlobMultiHashMapWithColidingKeyTest(System.Int32)
+  name: BlobMultiHashMapWithColidingKeyTest(int)
+  href: api/Global.BlobTests.html#Global_BlobTests_BlobMultiHashMapWithColidingKeyTest_System_Int32_
+  commentId: M:Global.BlobTests.BlobMultiHashMapWithColidingKeyTest(System.Int32)
+  name.vb: BlobMultiHashMapWithColidingKeyTest(Integer)
+  fullName: BlobTests.BlobMultiHashMapWithColidingKeyTest(int)
+  fullName.vb: BlobTests.BlobMultiHashMapWithColidingKeyTest(Integer)
+  nameWithType: BlobTests.BlobMultiHashMapWithColidingKeyTest(int)
+  nameWithType.vb: BlobTests.BlobMultiHashMapWithColidingKeyTest(Integer)
+- uid: Global.BlobTests.BlobMultiHashMapWithColidingKeyTest*
+  name: BlobMultiHashMapWithColidingKeyTest
+  href: api/Global.BlobTests.html#Global_BlobTests_BlobMultiHashMapWithColidingKeyTest_
+  commentId: Overload:Global.BlobTests.BlobMultiHashMapWithColidingKeyTest
+  isSpec: "True"
+  fullName: BlobTests.BlobMultiHashMapWithColidingKeyTest
+  nameWithType: BlobTests.BlobMultiHashMapWithColidingKeyTest
+- uid: Global.BlobTests.GenerateData*
+  name: GenerateData
+  href: api/Global.BlobTests.html#Global_BlobTests_GenerateData_
+  commentId: Overload:Global.BlobTests.GenerateData
+  isSpec: "True"
+  fullName: BlobTests.GenerateData
+  nameWithType: BlobTests.GenerateData
+- uid: Global.BlobTests.GenerateData``2(System.Int32,``0[],``1[],Allocator)
+  name: GenerateData<TKey, TValue>(int, TKey[], TValue[], Allocator)
+  href: api/Global.BlobTests.html#Global_BlobTests_GenerateData__2_System_Int32___0_____1___Allocator_
+  commentId: M:Global.BlobTests.GenerateData``2(System.Int32,``0[],``1[],Allocator)
+  name.vb: GenerateData(Of TKey, TValue)(Integer, TKey(), TValue(), Allocator)
+  fullName: BlobTests.GenerateData<TKey, TValue>(int, TKey[], TValue[], Allocator)
+  fullName.vb: BlobTests.GenerateData(Of TKey, TValue)(Integer, TKey(), TValue(), Allocator)
+  nameWithType: BlobTests.GenerateData<TKey, TValue>(int, TKey[], TValue[], Allocator)
+  nameWithType.vb: BlobTests.GenerateData(Of TKey, TValue)(Integer, TKey(), TValue(), Allocator)
+- uid: Global.BlobTests.MapJob
+  name: BlobTests.MapJob
+  href: api/Global.BlobTests.MapJob.html
+  commentId: T:Global.BlobTests.MapJob
+  fullName: BlobTests.MapJob
+  nameWithType: BlobTests.MapJob
+- uid: Global.BlobTests.MapJob.Execute(System.Int32)
+  name: Execute(int)
+  href: api/Global.BlobTests.MapJob.html#Global_BlobTests_MapJob_Execute_System_Int32_
+  commentId: M:Global.BlobTests.MapJob.Execute(System.Int32)
+  name.vb: Execute(Integer)
+  fullName: BlobTests.MapJob.Execute(int)
+  fullName.vb: BlobTests.MapJob.Execute(Integer)
+  nameWithType: BlobTests.MapJob.Execute(int)
+  nameWithType.vb: BlobTests.MapJob.Execute(Integer)
+- uid: Global.BlobTests.MapJob.Execute*
+  name: Execute
+  href: api/Global.BlobTests.MapJob.html#Global_BlobTests_MapJob_Execute_
+  commentId: Overload:Global.BlobTests.MapJob.Execute
+  isSpec: "True"
+  fullName: BlobTests.MapJob.Execute
+  nameWithType: BlobTests.MapJob.Execute
+- uid: Global.BlobTests.MapJob.Keys
+  name: Keys
+  href: api/Global.BlobTests.MapJob.html#Global_BlobTests_MapJob_Keys
+  commentId: F:Global.BlobTests.MapJob.Keys
+  fullName: BlobTests.MapJob.Keys
+  nameWithType: BlobTests.MapJob.Keys
+- uid: Global.BlobTests.MapJob.map
+  name: map
+  href: api/Global.BlobTests.MapJob.html#Global_BlobTests_MapJob_map
+  commentId: F:Global.BlobTests.MapJob.map
+  fullName: BlobTests.MapJob.map
+  nameWithType: BlobTests.MapJob.map
+- uid: Global.BlobTests.MapJob.results
+  name: results
+  href: api/Global.BlobTests.MapJob.html#Global_BlobTests_MapJob_results
+  commentId: F:Global.BlobTests.MapJob.results
+  fullName: BlobTests.MapJob.results
+  nameWithType: BlobTests.MapJob.results
+- uid: Global.BlobTests.SimpleExempleTest
+  name: SimpleExempleTest()
+  href: api/Global.BlobTests.html#Global_BlobTests_SimpleExempleTest
+  commentId: M:Global.BlobTests.SimpleExempleTest
+  fullName: BlobTests.SimpleExempleTest()
+  nameWithType: BlobTests.SimpleExempleTest()
+- uid: Global.BlobTests.SimpleExempleTest*
+  name: SimpleExempleTest
+  href: api/Global.BlobTests.html#Global_BlobTests_SimpleExempleTest_
+  commentId: Overload:Global.BlobTests.SimpleExempleTest
+  isSpec: "True"
+  fullName: BlobTests.SimpleExempleTest
+  nameWithType: BlobTests.SimpleExempleTest
+- uid: Global.BlobTests.dataset
+  name: dataset
+  href: api/Global.BlobTests.html#Global_BlobTests_dataset
+  commentId: F:Global.BlobTests.dataset
+  fullName: BlobTests.dataset
+  nameWithType: BlobTests.dataset
+- uid: Global.KeyComputation
+  name: KeyComputation
+  href: api/Global.KeyComputation.html
+  commentId: T:Global.KeyComputation
+  fullName: KeyComputation
+  nameWithType: KeyComputation
+- uid: Global.KeyComputation.bucketIndex
+  name: bucketIndex
+  href: api/Global.KeyComputation.html#Global_KeyComputation_bucketIndex
+  commentId: F:Global.KeyComputation.bucketIndex
+  fullName: KeyComputation.bucketIndex
+  nameWithType: KeyComputation.bucketIndex
+- uid: Global.KeyComputation.keyHash
+  name: keyHash
+  href: api/Global.KeyComputation.html#Global_KeyComputation_keyHash
+  commentId: F:Global.KeyComputation.keyHash
+  fullName: KeyComputation.keyHash
+  nameWithType: KeyComputation.keyHash
+- uid: Global.KeyIndex
+  name: KeyIndex
+  href: api/Global.KeyIndex.html
+  commentId: T:Global.KeyIndex
+  fullName: KeyIndex
+  nameWithType: KeyIndex
+- uid: Global.KeyIndex.ElementCount
+  name: ElementCount
+  href: api/Global.KeyIndex.html#Global_KeyIndex_ElementCount
+  commentId: F:Global.KeyIndex.ElementCount
+  fullName: KeyIndex.ElementCount
+  nameWithType: KeyIndex.ElementCount
+- uid: Global.KeyIndex.FirstIndex
+  name: FirstIndex
+  href: api/Global.KeyIndex.html#Global_KeyIndex_FirstIndex
+  commentId: F:Global.KeyIndex.FirstIndex
+  fullName: KeyIndex.FirstIndex
+  nameWithType: KeyIndex.FirstIndex
+- uid: Global.KeyIndex.KeyHash
+  name: KeyHash
+  href: api/Global.KeyIndex.html#Global_KeyIndex_KeyHash
+  commentId: F:Global.KeyIndex.KeyHash
+  fullName: KeyIndex.KeyHash
+  nameWithType: KeyIndex.KeyHash

@@ -1,0 +1,57 @@
+{
+  "api/Global.BlobHashMapBuilder-2.html": {
+    "href": "api/Global.BlobHashMapBuilder-2.html",
+    "title": "Class BlobHashMapBuilder<TKey, TValue> | |",
+    "summary": "Class BlobHashMapBuilder<TKey, TValue> Namespace Global public class BlobHashMapBuilder<TKey, TValue> where TKey : unmanaged, IEquatable<TKey>, IComparable<TKey> where TValue : unmanaged Type Parameters TKey TValue Inheritance object BlobHashMapBuilder<TKey, TValue> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BlobHashMapBuilder(BlobBuilder, int, float) public BlobHashMapBuilder(BlobBuilder bb, int bucketCount = -1, float loadFactor = 0.75) Parameters bb BlobBuilder bucketCount int loadFactor float Methods Add(TKey, TValue) public BlobHashMapBuilder<TKey, TValue> Add(TKey key, TValue value) Parameters key TKey value TValue Returns BlobHashMapBuilder<TKey, TValue> AddAll(IEnumerable<KeyValuePair<TKey, TValue>>) public BlobHashMapBuilder<TKey, TValue> AddAll(IEnumerable<KeyValuePair<TKey, TValue>> elements) Parameters elements IEnumerable<KeyValuePair<TKey, TValue>> Returns BlobHashMapBuilder<TKey, TValue> AddAll(IEnumerator<KeyValue<TKey, TValue>>) public BlobHashMapBuilder<TKey, TValue> AddAll(IEnumerator<KeyValue<TKey, TValue>> elements) Parameters elements IEnumerator<KeyValue<TKey, TValue>> Returns BlobHashMapBuilder<TKey, TValue> CreateBlobAssetReference(Allocator) public BlobAssetReference<BlobMultiHashMap<TKey, TValue>> CreateBlobAssetReference(Allocator allocator = null) Parameters allocator Allocator Returns BlobAssetReference<BlobMultiHashMap<TKey, TValue>>"
+  },
+  "api/Global.BlobMultiHashMap-2.html": {
+    "href": "api/Global.BlobMultiHashMap-2.html",
+    "title": "Struct BlobMultiHashMap<TKey, TValue> | |",
+    "summary": "Struct BlobMultiHashMap<TKey, TValue> Namespace Global An immutable map of key/values stored in a blob asset. It supports multiple values per key. public struct BlobMultiHashMap<TKey, TValue> where TKey : struct, IEquatable<TKey> where TValue : struct Type Parameters TKey TValue Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields ValueCount The total number of element in the Map. public BlobPtr<int> ValueCount Field Value BlobPtr<int> Methods ContainsKey(TKey) public bool ContainsKey(TKey key) Parameters key TKey Returns bool GetValuesForKey(TKey) public NativeArray<TValue> GetValuesForKey(TKey key) Parameters key TKey Returns NativeArray<TValue>"
+  },
+  "api/Global.BlobTests.BlobJob.html": {
+    "href": "api/Global.BlobTests.BlobJob.html",
+    "title": "Struct BlobTests.BlobJob | |",
+    "summary": "Struct BlobTests.BlobJob Namespace Global public struct BlobTests.BlobJob : IJobParallelFor Implements IJobParallelFor Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields Keys public NativeArray<int> Keys Field Value NativeArray<int> mapref public BlobAssetReference<BlobMultiHashMap<int, int>> mapref Field Value BlobAssetReference<BlobMultiHashMap<int, int>> results public NativeParallelHashMap<int, int>.ParallelWriter results Field Value ParallelWriter Methods Execute(int) public void Execute(int index) Parameters index int"
+  },
+  "api/Global.BlobTests.MapJob.html": {
+    "href": "api/Global.BlobTests.MapJob.html",
+    "title": "Struct BlobTests.MapJob | |",
+    "summary": "Struct BlobTests.MapJob Namespace Global public struct BlobTests.MapJob : IJobParallelFor Implements IJobParallelFor Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields Keys public NativeArray<int> Keys Field Value NativeArray<int> map public NativeParallelMultiHashMap<int, int> map Field Value NativeParallelMultiHashMap<int, int> results public NativeParallelHashMap<int, int>.ParallelWriter results Field Value ParallelWriter Methods Execute(int) public void Execute(int index) Parameters index int"
+  },
+  "api/Global.BlobTests.html": {
+    "href": "api/Global.BlobTests.html",
+    "title": "Class BlobTests | |",
+    "summary": "Class BlobTests Namespace Global public class BlobTests Inheritance object BlobTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields dataset public static int[] dataset Field Value int[] Methods BlobMultiHashMapExistingKeyTest() public void BlobMultiHashMapExistingKeyTest() BlobMultiHashMapNonExistingKeyTest(int) public void BlobMultiHashMapNonExistingKeyTest(int size) Parameters size int BlobMultiHashMapTest(int) public void BlobMultiHashMapTest(int size) Parameters size int BlobMultiHashMapWithColidingKeyTest(int) public void BlobMultiHashMapWithColidingKeyTest(int size) Parameters size int GenerateData<TKey, TValue>(int, TKey[], TValue[], Allocator) public static NativeParallelMultiHashMap<TKey, TValue> GenerateData<TKey, TValue>(int size, TKey[] keys, TValue[] values, Allocator allocator = null) where TKey : unmanaged, IEquatable<TKey>, IComparable<TKey> where TValue : unmanaged Parameters size int keys TKey[] values TValue[] allocator Allocator Returns NativeParallelMultiHashMap<TKey, TValue> Type Parameters TKey TValue SimpleExempleTest() public void SimpleExempleTest()"
+  },
+  "api/Global.KeyComputation.html": {
+    "href": "api/Global.KeyComputation.html",
+    "title": "Struct KeyComputation | |",
+    "summary": "Struct KeyComputation Namespace Global public struct KeyComputation Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields bucketIndex public int bucketIndex Field Value int keyHash public int keyHash Field Value int"
+  },
+  "api/Global.KeyIndex.html": {
+    "href": "api/Global.KeyIndex.html",
+    "title": "Struct KeyIndex | |",
+    "summary": "Struct KeyIndex Namespace Global public struct KeyIndex Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields ElementCount public int ElementCount Field Value int FirstIndex public int FirstIndex Field Value int KeyHash public int KeyHash Field Value int"
+  },
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace | |",
+    "summary": "Namespace Classes BlobHashMapBuilder<TKey, TValue> BlobTests Structs BlobMultiHashMap<TKey, TValue> An immutable map of key/values stored in a blob asset. It supports multiple values per key. BlobTests.BlobJob BlobTests.MapJob KeyComputation KeyIndex"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| |",
+    "summary": "This is the documentation for the Scripting APIs of this package."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| |",
+    "summary": "This page redirects to the manual."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "| |",
+    "summary": ""
+  }
+}
